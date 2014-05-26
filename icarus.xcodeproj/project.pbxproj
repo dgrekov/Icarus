@@ -24,6 +24,21 @@
 		7C09081B193129D90060E895 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0907F6193129D90060E895 /* UIKit.framework */; };
 		7C090823193129D90060E895 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C090821193129D90060E895 /* InfoPlist.strings */; };
 		7C090825193129D90060E895 /* icarusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C090824193129D90060E895 /* icarusTests.m */; };
+		7C09083119312A9B0060E895 /* DGPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C09083019312A9B0060E895 /* DGPlayer.m */; };
+		7CC774D01931447E005D2259 /* DGSon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774CF1931447E005D2259 /* DGSon.m */; };
+		7CC774D3193147D6005D2259 /* DGBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774D2193147D6005D2259 /* DGBackground.m */; };
+		7CC774D6193149A2005D2259 /* DGBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774D5193149A2005D2259 /* DGBird.m */; };
+		7CC774D91931530D005D2259 /* DGWaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774D81931530D005D2259 /* DGWaves.m */; };
+		7CC774DD1931AE8C005D2259 /* DGHUDStartGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774DC1931AE8C005D2259 /* DGHUDStartGame.m */; };
+		7CC774E01932E97C005D2259 /* DGLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774DF1932E97C005D2259 /* DGLetter.m */; };
+		7CC774E31932EF32005D2259 /* DGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774E21932EF32005D2259 /* DGLabel.m */; };
+		7CC774E51932F262005D2259 /* letters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC774E41932F262005D2259 /* letters.plist */; };
+		7CC774E819330674005D2259 /* DGHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774E719330674005D2259 /* DGHUD.m */; };
+		7CC774EB19330A08005D2259 /* DGHUDDeath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774EA19330A08005D2259 /* DGHUDDeath.m */; };
+		7CC774EE1933F9EF005D2259 /* DGHUDWin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC774ED1933F9EF005D2259 /* DGHUDWin.m */; };
+		7CC774F61933FF5C005D2259 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC774F01933FF5C005D2259 /* libTestFlight.a */; };
+		7CC774F71933FF5C005D2259 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CC774F11933FF5C005D2259 /* README.md */; };
+		7CC774F81933FF5C005D2259 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CC774F21933FF5C005D2259 /* release_notes.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +75,35 @@
 		7C090820193129D90060E895 /* icarusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "icarusTests-Info.plist"; sourceTree = "<group>"; };
 		7C090822193129D90060E895 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C090824193129D90060E895 /* icarusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = icarusTests.m; sourceTree = "<group>"; };
+		7C09082F19312A9B0060E895 /* DGPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGPlayer.h; path = "Game Objects/DGPlayer.h"; sourceTree = "<group>"; };
+		7C09083019312A9B0060E895 /* DGPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGPlayer.m; path = "Game Objects/DGPlayer.m"; sourceTree = "<group>"; };
+		7CC774CE1931447E005D2259 /* DGSon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGSon.h; sourceTree = "<group>"; };
+		7CC774CF1931447E005D2259 /* DGSon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGSon.m; sourceTree = "<group>"; };
+		7CC774D1193147D6005D2259 /* DGBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGBackground.h; path = "Game Objects/DGBackground.h"; sourceTree = "<group>"; };
+		7CC774D2193147D6005D2259 /* DGBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGBackground.m; path = "Game Objects/DGBackground.m"; sourceTree = "<group>"; };
+		7CC774D4193149A2005D2259 /* DGBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGBird.h; path = "Game Objects/DGBird.h"; sourceTree = "<group>"; };
+		7CC774D5193149A2005D2259 /* DGBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGBird.m; path = "Game Objects/DGBird.m"; sourceTree = "<group>"; };
+		7CC774D71931530D005D2259 /* DGWaves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGWaves.h; path = "Game Objects/DGWaves.h"; sourceTree = "<group>"; };
+		7CC774D81931530D005D2259 /* DGWaves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGWaves.m; path = "Game Objects/DGWaves.m"; sourceTree = "<group>"; };
+		7CC774DB1931AE8C005D2259 /* DGHUDStartGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGHUDStartGame.h; sourceTree = "<group>"; };
+		7CC774DC1931AE8C005D2259 /* DGHUDStartGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGHUDStartGame.m; sourceTree = "<group>"; };
+		7CC774DE1932E97C005D2259 /* DGLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLetter.h; sourceTree = "<group>"; };
+		7CC774DF1932E97C005D2259 /* DGLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLetter.m; sourceTree = "<group>"; };
+		7CC774E11932EF32005D2259 /* DGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGLabel.h; path = "Game Objects/DGLabel.h"; sourceTree = "<group>"; };
+		7CC774E21932EF32005D2259 /* DGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGLabel.m; path = "Game Objects/DGLabel.m"; sourceTree = "<group>"; };
+		7CC774E41932F262005D2259 /* letters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = letters.plist; sourceTree = "<group>"; };
+		7CC774E619330674005D2259 /* DGHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGHUD.h; sourceTree = "<group>"; };
+		7CC774E719330674005D2259 /* DGHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGHUD.m; sourceTree = "<group>"; };
+		7CC774E919330A08005D2259 /* DGHUDDeath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGHUDDeath.h; sourceTree = "<group>"; };
+		7CC774EA19330A08005D2259 /* DGHUDDeath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGHUDDeath.m; sourceTree = "<group>"; };
+		7CC774EC1933F9EF005D2259 /* DGHUDWin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGHUDWin.h; sourceTree = "<group>"; };
+		7CC774ED1933F9EF005D2259 /* DGHUDWin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGHUDWin.m; sourceTree = "<group>"; };
+		7CC774F01933FF5C005D2259 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		7CC774F11933FF5C005D2259 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7CC774F21933FF5C005D2259 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		7CC774F31933FF5C005D2259 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		7CC774F41933FF5C005D2259 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		7CC774F51933FF5C005D2259 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC774F61933FF5C005D2259 /* libTestFlight.a in Frameworks */,
 				7C0907F5193129D90060E895 /* CoreGraphics.framework in Frameworks */,
 				7C0907F7193129D90060E895 /* UIKit.framework in Frameworks */,
 				7C0907F9193129D90060E895 /* SpriteKit.framework in Frameworks */,
@@ -121,6 +166,9 @@
 		7C0907FA193129D90060E895 /* icarus */ = {
 			isa = PBXGroup;
 			children = (
+				7CC774EF1933FF5C005D2259 /* TestFlightSDK */,
+				7CC774DA1931AE74005D2259 /* HUD */,
+				7C09082E19312A710060E895 /* Game Objects */,
 				7C090803193129D90060E895 /* DGAppDelegate.h */,
 				7C090804193129D90060E895 /* DGAppDelegate.m */,
 				7C090806193129D90060E895 /* Main.storyboard */,
@@ -131,6 +179,7 @@
 				7C09080F193129D90060E895 /* Spaceship.png */,
 				7C090811193129D90060E895 /* Images.xcassets */,
 				7C0907FB193129D90060E895 /* Supporting Files */,
+				7CC774E41932F262005D2259 /* letters.plist */,
 			);
 			path = icarus;
 			sourceTree = "<group>";
@@ -162,6 +211,55 @@
 				7C090821193129D90060E895 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C09082E19312A710060E895 /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7C09082F19312A9B0060E895 /* DGPlayer.h */,
+				7C09083019312A9B0060E895 /* DGPlayer.m */,
+				7CC774CE1931447E005D2259 /* DGSon.h */,
+				7CC774CF1931447E005D2259 /* DGSon.m */,
+				7CC774D1193147D6005D2259 /* DGBackground.h */,
+				7CC774D2193147D6005D2259 /* DGBackground.m */,
+				7CC774D71931530D005D2259 /* DGWaves.h */,
+				7CC774D81931530D005D2259 /* DGWaves.m */,
+				7CC774D4193149A2005D2259 /* DGBird.h */,
+				7CC774D5193149A2005D2259 /* DGBird.m */,
+				7CC774DE1932E97C005D2259 /* DGLetter.h */,
+				7CC774DF1932E97C005D2259 /* DGLetter.m */,
+				7CC774E11932EF32005D2259 /* DGLabel.h */,
+				7CC774E21932EF32005D2259 /* DGLabel.m */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		7CC774DA1931AE74005D2259 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				7CC774DB1931AE8C005D2259 /* DGHUDStartGame.h */,
+				7CC774DC1931AE8C005D2259 /* DGHUDStartGame.m */,
+				7CC774E619330674005D2259 /* DGHUD.h */,
+				7CC774E719330674005D2259 /* DGHUD.m */,
+				7CC774E919330A08005D2259 /* DGHUDDeath.h */,
+				7CC774EA19330A08005D2259 /* DGHUDDeath.m */,
+				7CC774EC1933F9EF005D2259 /* DGHUDWin.h */,
+				7CC774ED1933F9EF005D2259 /* DGHUDWin.m */,
+			);
+			name = HUD;
+			sourceTree = "<group>";
+		};
+		7CC774EF1933FF5C005D2259 /* TestFlightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7CC774F01933FF5C005D2259 /* libTestFlight.a */,
+				7CC774F11933FF5C005D2259 /* README.md */,
+				7CC774F21933FF5C005D2259 /* release_notes.md */,
+				7CC774F31933FF5C005D2259 /* TestFlight+AsyncLogging.h */,
+				7CC774F41933FF5C005D2259 /* TestFlight+ManualSessions.h */,
+				7CC774F51933FF5C005D2259 /* TestFlight.h */,
+			);
+			path = TestFlightSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC774F71933FF5C005D2259 /* README.md in Resources */,
 				7C0907FF193129D90060E895 /* InfoPlist.strings in Resources */,
 				7C090812193129D90060E895 /* Images.xcassets in Resources */,
+				7CC774E51932F262005D2259 /* letters.plist in Resources */,
+				7CC774F81933FF5C005D2259 /* release_notes.md in Resources */,
 				7C090810193129D90060E895 /* Spaceship.png in Resources */,
 				7C090808193129D90060E895 /* Main.storyboard in Resources */,
 			);
@@ -266,7 +367,18 @@
 				7C090801193129D90060E895 /* main.m in Sources */,
 				7C09080E193129D90060E895 /* DGMyScene.m in Sources */,
 				7C09080B193129D90060E895 /* DGViewController.m in Sources */,
+				7CC774EB19330A08005D2259 /* DGHUDDeath.m in Sources */,
+				7CC774E31932EF32005D2259 /* DGLabel.m in Sources */,
+				7CC774DD1931AE8C005D2259 /* DGHUDStartGame.m in Sources */,
+				7CC774D91931530D005D2259 /* DGWaves.m in Sources */,
+				7CC774D01931447E005D2259 /* DGSon.m in Sources */,
 				7C090805193129D90060E895 /* DGAppDelegate.m in Sources */,
+				7CC774D3193147D6005D2259 /* DGBackground.m in Sources */,
+				7CC774EE1933F9EF005D2259 /* DGHUDWin.m in Sources */,
+				7C09083119312A9B0060E895 /* DGPlayer.m in Sources */,
+				7CC774E819330674005D2259 /* DGHUD.m in Sources */,
+				7CC774D6193149A2005D2259 /* DGBird.m in Sources */,
+				7CC774E01932E97C005D2259 /* DGLetter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,9 +503,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "icarus/icarus-Prefix.pch";
 				INFOPLIST_FILE = "icarus/icarus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/icarus/TestFlightSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -405,9 +523,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "icarus/icarus-Prefix.pch";
 				INFOPLIST_FILE = "icarus/icarus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/icarus/TestFlightSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -473,6 +597,7 @@
 				7C09082A193129D90060E895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C09082B193129D90060E895 /* Build configuration list for PBXNativeTarget "icarusTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +606,7 @@
 				7C09082D193129D90060E895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

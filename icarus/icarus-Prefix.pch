@@ -13,4 +13,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+#define PLAYER_CATEGORY 1
+#define BIRD_CATEGORY 2
 #endif
